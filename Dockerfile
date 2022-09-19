@@ -2,7 +2,7 @@ FROM golang:latest
 
 WORKDIR /go/src
 
-COPY ./src .
+COPY ./ .
 
 RUN go install github.com/cosmtrek/air@latest
 
